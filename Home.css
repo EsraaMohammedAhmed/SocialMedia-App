@@ -1,0 +1,254 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #214D55;
+    color: #fff;
+}
+a{
+    color:#447E7E;
+    text-decoration: none;
+}
+.container {
+    height: 650px;
+    width: 375px;
+    margin: 15px;
+    background-color: #77B0AA;
+    padding: 40px;
+    border-radius: 40px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Header Styles */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h1 {
+    font-size: 24px;
+    color: rgb(0, 60, 67);
+}
+h2{
+    color: #214D55;
+}
+.icons i {
+    font-size: 24px;
+    margin-left: 10px;
+    display: inline;
+    justify-content: space-between;
+    color: rgb(0, 60, 67);
+}
+
+/* Stories Section */
+.stories {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+
+
+}
+
+.profile {
+    background-color: #031a1d;
+    width: 50px;
+    height: 50px;
+    margin-top: 65px;
+    margin-left: 16px;
+    border-radius: 50%;
+    background-image: url('EUOR0864.JPG');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.profile2 {
+
+    width: 50px;
+    height: 50px;
+    margin-top: 65px;
+    margin-left: 16px;
+    border-radius: 50%;
+    background-image: url('EKNP7459.JPG');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.profile3 {
+
+    width: 50px;
+    height: 50px;
+    margin-top: 65px;
+    margin-left: 16px;
+    border-radius: 50%;
+    background-image: url('EAVM2941.JPG');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.story-card {
+    width: 80px;
+    height: 100px;
+    background-color: #DDE6E6;
+    border-radius: 10px;
+    background-image: url("ALYK9407.JPG");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.story-card2 {
+    width: 80px;
+    height: 100px;
+    border-radius: 10px;
+    background-image: url("CIKB9089.JPG");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.story-card3 {
+    width: 80px;
+    height: 100px;
+    background-color: #DDE6E6;
+    border-radius: 10px;
+    background-image: url("ALYK9407.JPG");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Explore and Discover Buttons */
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    border: #214D55;
+}
+
+.buttons :hover {
+    background-color: #214D55;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+}
+
+.explore-btn {
+    background-color: #214D55;
+}
+
+.discover-btn {
+    background-color: #447E7E;
+}
+
+.post-header {
+    display: block;
+    text-align: start;
+}
+
+.text {
+    text-align: start;
+}
+
+/* Post Section */
+.post-card {
+    background-color: #567b7b;
+    padding: 15px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+
+
+}
+
+.post-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.profilePost {
+    background-color: #214D55;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+}
+
+.profilePost img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.BigText {
+    display: flex;
+    flex-direction: column;
+    padding: 2px;
+   
+}
+
+.image-placeholder {
+    background-color: #A5BCC1;
+    height: 150px;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-image: url("EAVM2941.JPG");
+
+}
+
+.post-actions {
+    display: flex;
+    padding-right: 20px;
+    margin-top: 10px;
+
+
+}
+
+.heart {
+    padding: 3px;
+    color: #214D55;
+}
+
+.comment {
+    padding: 3px;
+    color: #214D55;
+
+}
+
+.fa-comment {
+    padding: 3px;
+    color: rgb(0, 60, 67);
+
+}
+
+/* Bottom Navigation */
+
+.bottom-nav {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #214D55;
+    border-radius: 0 0 10px 10px;
+    padding: 10px;
+    box-shadow: 0 -3px 10px rgba(0, 0, 0, 0.2);
+    color: rgb(122, 209, 218);
+}
+
+
+
+.fas {
+    display: block;
+    margin: 2px 8px 5px 4px;
+    padding: 2px;
+    border-radius: 0px 0px 10px 10px;
+}
